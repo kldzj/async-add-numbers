@@ -1,0 +1,31 @@
+{
+	"name": "async-add-numbers",
+	"version": "1.0.1",
+	"description": "Asynchronously add numbers, (probably not) as easy as can be",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/n-kolodziej/async-add-numbers.git"
+	},
+	"keywords": [
+		"add",
+		"substract",
+		"numbers",
+		"async",
+		"promise",
+		"serious"
+	],
+	"author": "Nikolai Kolodziej",
+	"license": "GPL-3.0-only",
+	"bugs": {
+		"url": "https://github.com/n-kolodziej/async-add-numbers/issues"
+	},
+	"homepage": "https://nmbr.dev/",
+	"devDependencies": {
+		"tape": "^4.11.0",
+		"tape-promise": "^4.0.0"
+	}
+}
